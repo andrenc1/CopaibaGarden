@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="50" viewBox="0 0 85 50">
+  <g id="icone" transform="translate(-230 -15)">
+    <g id="marca" transform="translate(230 15)" fill="none" stroke="#000" stroke-width="3">
+      <rect width="85" height="50" stroke="none"/>
+      <rect x="1.5" y="1.5" width="82" height="47" fill="none"/>
+    </g>
+    <text id="copaiba_garden" data-name="copaiba
+garden" transform="translate(236 35)" font-size="18" font-family="SitkaSmall-Bold, Sitka Small" font-weight="700"><tspan x="0" y="0">copaiba</tspan><tspan x="0" y="20">garden</tspan></text>
+  </g>
+</svg>

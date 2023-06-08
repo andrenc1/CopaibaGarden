@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>CopaibaGarden - Conheça as plantas Orquidea, Suculenta e Cacto.</title>
+
+  <meta name="description" content="Compre sua planta no CopaibaGarden. Possuímos Orquideas, Suculentas e Cactos.">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CopaibaGarden - Conheça as plantas Orquidea, Suculenta e Cacto." />
+  <meta property="og:description" content="Compre sua planta no CopaibaGarden. Possuímos Orquideas, Suculentas e Cactos." />
+  <meta property="og:url" content="http://copaibagarden.com/produtos.html" />
+  <meta property="og:image" content="http://copaibagarden.com/img/og-image.svg" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container ">
+      <a href="index.html" class="grid-4"><img src="img/icone.svg" alt="CopaibaGarden"></a>
+      <nav class="header_menu grid-12">
+        <ul>
+          <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna_produtos">
+    <div class="container">
+      <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+      <p data-anime="800" class="fadeInDown">conheça todos os nossos produtos</p>
+    </div>
+  </section>
+
+  <section class="container produto_item fadeInDown" data-anime="1200">
+    <div class="grid-11 orquidea_item">
+      <img src="img/imagem-adobe/produtos/orquidea-titulo.jpg" alt="Orquidea">
+      <h2>Orquidea</h2>
+    </div>
+    <div class="grid-5 produto_icone"><img src="img/plantas/orquidea.svg" alt="Orquidea"></div>
+    <div class="grid-8"><img src="img/imagem-adobe/produtos/orquidea-produtos2.jpg" alt="Orquidea"></div>
+    <div class="grid-8 produto_info">
+      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.</p>
+    </div>
+  </section>
+
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/imagem-adobe/portfolio/cactos-titulo.jpg" alt="Cacto">
+      <h2>Cacto</h2>
+    </div>
+    <div class="grid-5 produto_icone"><img src="img/plantas/cacto.svg" alt="Cacto"></div>
+    <div class="grid-8"><img src="img/imagem-adobe/produtos/cacto2.jpg" alt="Cacto"></div>
+    <div class="grid-8 produto_info">
+      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.</p>
+    </div>
+  </section>
+
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/imagem-adobe/produtos/suculenta-titulo.jpg" alt="Suculenta">
+      <h2>Suculenta</h2>
+    </div>
+    <div class="grid-5 produto_icone"><img src="img/plantas/botanico.svg" alt="Suculenta"></div>
+    <div class="grid-8"><img src="img/imagem-adobe/produtos/suculenta2.jpg" alt="Suculenta"></div>
+    <div class="grid-8 produto_info">
+      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.</p>
+    </div>
+  </section>
+
+  <section class="orcamento">
+    <div class="container">
+      <h2 class="subtitulo">Orçamento</h2>
+      <form id="form_orcamento" method="POST" action="./enviar.php" class="form grid-8 formphp">
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="enail" required>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone">
+
+        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+      </form>
+      <div class="orcamento_dados grid-8">
+        <h3>Dados</h3>
+        <span>+55 16 99999-9999</span>
+        <span>orçamento@copaibagarden.com</span>
+        <h3>Escolha seu tipo de planta</h3>
+        <ul>
+          <li>- Cores</li>
+          <li>- Tamanhos</li>
+          <li>- Tipos</li>
+          <li>- E Outros</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="quebra">
+    <blockquote class="quote-externo container">
+      <p>''A esperança é planta que germina, mesmo não semeada.''</p>
+      <cite>CARLOS DRUMMOND DE ANDRADE</cite>
+    </blockquote>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- 16 9999-9999</li>
+            <li>- contato@copaibagarden.com</li>
+            <li>- Altinópolis - SP</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer_redes">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="twitter"></a></li>
+            <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+            <li><a href="http://istagram.com" target="_blank"><img src="img/redes-sociais/istagram.svg" alt="istagram"></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Copaiba Garden 2021 - Alguns direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>

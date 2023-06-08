@@ -1,0 +1,151 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Footer*/
+  .footer_redes ul li img {
+    width: 44px;
+    height: 44px;
+  }
+
+  .footer_contato ul li {
+    width: 200px;
+  }
+
+  /*Produtos*/
+
+  .produto_item h2 {
+    top: -155px;
+    margin-bottom: -84px;
+  }
+
+  .produto_icone {
+    padding: 26px;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 71px 30px;
+  }
+}
+
+/*Estilo para smartfone*/
+@media only screen and (max-width: 787px) {
+  /*Header*/
+  .header {
+    position: relative;
+    margin-top: 0px;
+  }
+
+  .header img {
+    margin: 0 auto 20px;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 0;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header_menu ul li a {
+    border: 3.5px solid black;
+    width: 140px;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: white;
+  }
+
+  .header_menu ul li a.menu_ativo {
+    border-color: white;
+  }
+
+  /*Introduçao*/
+
+  .introducao {
+    margin-top: 0px;
+    padding-top: 65px;
+  }
+
+  .introducao blockquote {
+    margin-top: 15px;
+  }
+
+  .introducao p {
+    margin-bottom: 35px;
+  }
+
+  .call {
+    padding-top: 10px;
+  }
+
+  /*Introduçao-Interna*/
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
+  /*Produtos*/
+
+  .produto_item h2 {
+    top: -114px;
+    margin-bottom: -84px;
+  }
+
+  .produto_icone {
+    padding: 26px;
+  }
+
+  .produto_icone img {
+    padding-left: 38px;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 71px 30px;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento_dados ul {
+    padding-right: 0px;
+  }
+
+  /*Quebra*/
+
+  .quote-externo {
+    margin-top: -25px;
+  }
+
+  .quote-externo p:after {
+    margin: 10px auto;
+  }
+
+  /*Footer*/
+
+  .footer_redes ul li img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .footer_redes {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  /*Contato*/
+
+  .contato_form {
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+}
